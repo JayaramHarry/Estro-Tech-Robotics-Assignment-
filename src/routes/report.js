@@ -1,4 +1,4 @@
-// src/routes/report.js
+
 const express = require('express');
 const Uptime = require('../models/Uptime');
 const Analytics = require('../models/Analytics');
