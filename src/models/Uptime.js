@@ -1,4 +1,4 @@
-// src/models/Uptime.js
+
 const mongoose = require('mongoose');
 
 const UptimeSchema = new mongoose.Schema({
