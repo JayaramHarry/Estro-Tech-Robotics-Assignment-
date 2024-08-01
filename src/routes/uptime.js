@@ -1,4 +1,4 @@
-// src/routes/uptime.js
+
 const express = require('express');
 const Uptime = require('../models/Uptime');
 
