@@ -48,18 +48,18 @@ Response:
 
 [
   {
-    "_id": "66abc57c33b46096918325c5",
-    "deviceId": "device1",
-    "data": {
+     "_id": "66abc57c33b46096918325c5",
+      "deviceId": "device1",
+      "data": {
       "timestamp": "2024-08-01T17:27:24.048+00:00"
-    },
-    "createdAt": "2024-08-01T17:27:24.051+00:00",
-    "updatedAt": "2024-08-01T17:27:24.051+00:00",
-    "__v": 0
-  }
-  // more documents...
-]
-
+      },
+      "createdAt": "2024-08-01T17:27:24.051+00:00",
+      "updatedAt": "2024-08-01T17:27:24.051+00:00",
+      "__v": 0
+      }
+      // more documents...
+      ]
+      
 2. Fetch Analytical Data
 Endpoint: GET /api/analytics
 Description: Fetch analytical data aggregated by hour and day.
