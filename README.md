@@ -93,9 +93,7 @@ Response:
 
 If you prefer to use Postman for documenting and testing your API instead of Swagger, you can include instructions for how to use Postman in your README.md file. Here’s how you can update the README.md to reflect this choice:
 
-README.md
-markdown
-Copy code
+
 # Estro Tech Robotics Device Analytics
 
 ## Project Overview
