@@ -1,4 +1,4 @@
-// src/routes/analytics.js
+
 const express = require('express');
 const Analytics = require('../models/Analytics');
 
