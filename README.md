@@ -16,20 +16,21 @@ This project provides APIs for accessing detailed uptime and analytical data rep
 1. **Clone the Repository**
 
    git clone https://github.com/JayaramHarry/Estro-Tech-Robotics-Assignment-.git
+   
    cd estro_tech_robotics_devicse_analytics
 
 2. Install Dependencies
-Run the following command to install the necessary npm packages:
+   Run the following command to install the necessary npm packages:
 
-npm install
+   npm install
 
 3. Set Up the Database
 
-If using a local MongoDB instance, ensure it is running on the default port (27017).
-
-If using MongoDB Atlas, update the connection string in src/index.js with your Atlas credentials:
-
-await mongoose.connect('mongodb+srv://<username>:<password>@cluster0.mongodb.net/device-analytics');
+   If using a local MongoDB instance, ensure it is running on the default port (27017).
+   
+   If using MongoDB Atlas, update the connection string in src/index.js with your Atlas credentials:
+   
+   await mongoose.connect('mongodb+srv://<username>:<password>@cluster0.mongodb.net/device-analytics');
 
 4. Start the Server
 
