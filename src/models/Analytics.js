@@ -1,4 +1,4 @@
-// src/models/Analytics.js
+
 const mongoose = require('mongoose');
 
 const AnalyticsSchema = new mongoose.Schema({
