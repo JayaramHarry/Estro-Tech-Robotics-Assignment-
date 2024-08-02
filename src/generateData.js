@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
 const Uptime = require('./models/Uptime');
 const Analytics = require('./models/Analytics');
+require('dotenv').config(); // To load environment variables
 
-const dbURI = 'mongodb+srv://akulajayaram96:7BjN2DmsHu3h6HLV@jayaram.md0blsx.mongodb.net/device-analytics';
+const dbURI = process.env.MONGO_URI;
 
 // Connect to MongoDB
 mongoose.connect(dbURI)

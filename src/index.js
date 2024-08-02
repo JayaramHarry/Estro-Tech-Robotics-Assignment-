@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const uptimeRoutes = require('./routes/uptime');
 const analyticsRoutes = require('./routes/analytics');
 const reportRoutes = require('./routes/report');
-const auth = require('./middleware/auth');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
@@ -23,9 +22,10 @@ const startServer = async () => {
 
     app.use(express.json());
 
-    app.use('/api/uptime', auth, uptimeRoutes);
-    app.use('/api/analytics', auth, analyticsRoutes);
-    app.use('/api/report', auth, reportRoutes);
+    // Use routes without authentication
+    app.use('/api/uptime', uptimeRoutes);
+    app.use('/api/analytics', analyticsRoutes);
+    app.use('/api/report', reportRoutes);
 
     app.use(errorHandler);
 
